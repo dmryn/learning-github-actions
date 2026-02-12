@@ -11,5 +11,5 @@ jobs:
       - name: checkout repository
         uses: actions/checkout@v4
 
-      - run: echo "$(cat hello world.txt)"
+      - run: echo "$(cat hello_world.txt)"
       
